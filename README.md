@@ -72,8 +72,11 @@ Evidence:
 # Result Comparison
 
 Parameter| Run 1 (Before)| Run 2 (After)
+
 Congestion| High| Low / Zero
+
 Routing| Failed| Success
+
 Utilization| High| Optimized
 
 ---
