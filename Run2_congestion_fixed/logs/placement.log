@@ -1,0 +1,77 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/results/cts/alu.odb'…
+define_corners Typical
+read_liberty -corner Typical /home/mr-rath0/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+Reading design constraints file at '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/results/cts/alu.sdc'…
+[INFO]: Setting RC values...
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 5520 10880
+[INFO GPL-0005] CoreAreaUxUy: 56580 24480
+[INFO GPL-0006] NumInstances: 77
+[INFO GPL-0007] NumPlaceInstances: 57
+[INFO GPL-0008] NumFixedInstances: 20
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 68
+[INFO GPL-0011] NumPins: 239
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 62330 37145
+[INFO GPL-0014] CoreAreaLxLy: 5520 10880
+[INFO GPL-0015] CoreAreaUxUy: 56580 24480
+[INFO GPL-0016] CoreArea: 694416000
+[INFO GPL-0017] NonPlaceInstsArea: 50048000
+[INFO GPL-0018] PlaceInstsArea: 434166400
+[INFO GPL-0019] Util(%): 67.38
+[INFO GPL-0020] StdInstsArea: 434166400
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00000011 HPWL: 1870825
+[InitialPlace]  Iter: 2 CG residual: 0.00000006 HPWL: 650709
+[InitialPlace]  Iter: 3 CG residual: 0.00000006 HPWL: 647718
+[InitialPlace]  Iter: 4 CG residual: 0.00000008 HPWL: 648746
+[InitialPlace]  Iter: 5 CG residual: 0.00000009 HPWL: 650306
+[INFO GPL-0031] FillerInit: NumGCells: 60
+[INFO GPL-0032] FillerInit: NumGNets: 68
+[INFO GPL-0033] FillerInit: NumGPins: 239
+[INFO GPL-0023] TargetDensity: 0.71
+[INFO GPL-0024] AveragePlaceInstArea: 7616954
+[INFO GPL-0025] IdealBinArea: 10728105
+[INFO GPL-0026] IdealBinCnt: 64
+[INFO GPL-0027] TotalBinArea: 694416000
+[INFO GPL-0028] BinCnt: 64 64
+[INFO GPL-0029] BinSize: 798 213
+[INFO GPL-0030] NumBins: 4096
+[NesterovSolve] Iter: 1 overflow: 0.934238 HPWL: 449872
+[NesterovSolve] Iter: 10 overflow: 0.91728 HPWL: 463328
+[NesterovSolve] Iter: 20 overflow: 0.919008 HPWL: 462829
+[NesterovSolve] Iter: 30 overflow: 0.918903 HPWL: 462846
+[NesterovSolve] Iter: 40 overflow: 0.918747 HPWL: 462839
+[NesterovSolve] Iter: 50 overflow: 0.91876 HPWL: 462847
+[NesterovSolve] Iter: 60 overflow: 0.918775 HPWL: 462871
+[NesterovSolve] Iter: 70 overflow: 0.918687 HPWL: 462932
+[NesterovSolve] Iter: 80 overflow: 0.918574 HPWL: 463008
+[NesterovSolve] Iter: 90 overflow: 0.918443 HPWL: 463125
+[NesterovSolve] Iter: 100 overflow: 0.918124 HPWL: 463321
+[NesterovSolve] Iter: 110 overflow: 0.917789 HPWL: 463443
+[NesterovSolve] Iter: 120 overflow: 0.917069 HPWL: 463836
+[NesterovSolve] Iter: 130 overflow: 0.915915 HPWL: 464567
+[NesterovSolve] Iter: 140 overflow: 0.914085 HPWL: 465944
+[NesterovSolve] Iter: 150 overflow: 0.90991 HPWL: 468444
+[NesterovSolve] Iter: 160 overflow: 0.904039 HPWL: 474474
+[NesterovSolve] Finished with Overflow: 0.899950
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/tmp/placement/22-global.odb'…
+Writing netlist to '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/tmp/placement/22-global.nl.v'…
+Writing powered netlist to '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/tmp/placement/22-global.pnl.v'…
+Writing layout to '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/tmp/placement/22-global.def'…
+Writing timing constraints to '/openlane/designs/alu/runs/RUN_2026.04.27_16.32.26/tmp/21-alu.sdc'…
