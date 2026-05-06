@@ -79,6 +79,12 @@ Routing| Failed| Success
 
 Utilization| High| Optimized
 
+# Key Parameter Adjustments (Approximate)
+
+- Core utilization reduced (e.g., ~75% → ~55%)
+- Placement density optimized
+- Routing-driven placement enabled
+
 ---
 
 # Conclusion
